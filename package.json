@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KacSzu/forkify-app.git"
+  },
+  "author": "Kacper Szulc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KacSzu/forkify-app/issues"
+  },
+  "homepage": "https://github.com/KacSzu/forkify-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
