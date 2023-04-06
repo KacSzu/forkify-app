@@ -1,3 +1,5 @@
+
+
 class SearchView {
   _parentElement = document.querySelector(`.search`);
   
@@ -12,8 +14,8 @@ class SearchView {
   }
 
   addHandlerSearch(handler) {
-    this._parentElement.addEventListener(`submit`, function (e) {
-      e.preventDefault();
+      this._parentElement.addEventListener(`submit`, function (e) {
+        e.preventDefault();
       handler();
     });
   }
