@@ -1,4 +1,3 @@
-import icons from 'url:../../img/icons.svg';
 import View from './View';
 class PreviewView extends View {
   _parentElement =''
